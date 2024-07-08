@@ -128,18 +128,14 @@ New array after swapping the first and last elements: [40, 30, 20]    */
 Sample Output:
 true */
 
-    /*    boolean compare;
-        int[] arr1=new int[]{2,3,6,6,4};
+    /*    int[] arr1=new int[]{2,3,6,6,4};
         int[] arr2=new int[]{2,3,6,6,4};
-
-        for (int i = 0; i < arr1.length; i++) {
-            if ( arr1[i] == arr2[i] ) {
-                compare=true;
-                System.out.println(compare); ;
-                break;
-            }else{
-                compare = false;
-                System.out.println(compare );   }} */
+        boolean e=true;
+        for (int i = 0; i < arr1.length ; i++) {
+               if(arr1[i] != arr2[i]){
+                e=false;}
+        }
+        System.out.println(e);      */
 
 
 
